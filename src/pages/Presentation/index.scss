@@ -1,0 +1,56 @@
+.presentation{
+    background-color: black;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    .gallery{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        width: 60%;
+        height: 700px;
+        @media screen and (max-width: 1080px) {
+            width: 100%;
+            height: 500px;
+        }
+        .cadrePhoto{
+            width: 30%;
+            flex-direction: column;
+            background-color: white;
+            border: 5px;
+            z-index: 1; 
+            
+            img{
+                width: 100%;
+                height: 95%;
+
+        object-fit: cover;
+            }
+        }
+        .image-description{
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 20px;
+            background-color: white;
+            margin: 0;
+            height: 50px;
+            text-align: center;
+
+        }
+    }
+    .description{
+        display: flex;
+        font-size: 20px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 50px;
+        text-align: center;
+    }
+}

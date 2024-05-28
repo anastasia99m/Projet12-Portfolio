@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.title{
+height: 200px;
+    .backgroundtxt{
+        color: gray;
+        font-size: 80px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: "Arimo", sans-serif;
+        opacity: 0.4;
+    }
+    .txt{
+        font-size: 30px;
+        position: relative;
+        font-family: "Exo 2", sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        top: -145px;
+        text-align: center;
+    
+    }
+}
