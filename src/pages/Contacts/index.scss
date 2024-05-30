@@ -3,7 +3,7 @@
     height: 1100px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
     color: white;
     align-items: center;
     .contacts-intro{
@@ -16,6 +16,7 @@
         height: 40px;
         background-color: gray;
         text-transform: uppercase;
+        text-align: center;
     }
     
     .bloc-contacts{
