@@ -10,11 +10,10 @@ import Projets from './pages/Projets'
 import Contacts from './pages/Contacts'
 
 function App() {
-    return (
+    return (      
     <Router>
           <Header />
           <Routes>
-              <Route path="/" component={Accueil} element={<Accueil />} />
               <Route path="/accueil" component={Accueil} element={<Accueil />} />
               <Route path="/presentation" component={Presentation} element={<Presentation />} />
               <Route path="/competences" component={Competences} element={<Competences />} />
